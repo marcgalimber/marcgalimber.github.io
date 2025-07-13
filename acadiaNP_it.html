@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5KD5DGD3VT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5KD5DGD3VT');
+</script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Acadia National Park | Marco Galimberti</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navbar -->
+<div id="navbar-placeholder"></div>
+
+  <!-- Acadia National Park Section -->
+  <section class="photos-section">
+    <h2 class="section-title">Parco nazionale di Acadia (Maine)</h2>
+    <p><p>Situato lungo la frastagliata costa del Maine, Acadia è l’unico Parco Nazionale degli Stati Uniti nel Nord-Est.
+      Unicamente suddiviso in tre sezioni — due isole e una penisola — offre un affascinante mix di montagna, foresta 
+      e oceano, tutto in un unico luogo. La parte principale del parco, sull'isola di Mount Desert, merita 
+      particolarmente di essere esplorata. Consiglio vivamente la strada panoramica che porta sulla cima di 
+      Cadillac Mountain, soprattutto all’alba o al tramonto, per una vista spettacolare.<br>
+<strong>Consiglio culinario:</strong> Dopo un’escursione intorno a Jordan Pond, non perderti il miglior lobster roll 
+che abbia mai assaggiato nel Nord-Est — servito alla Jordan Pond House — la ricompensa perfetta dopo una giornata di esplorazioni.
+</p>
+    <div class="photosub-gallery">
+        <div class="photosub-item">
+    <img src="images/Acadia/IMGP1687.JPG" data-caption="Vista dalla penisola di Schoodic" alt="Acadia View 1" />
+  </div>
+      <div class="photosub-item">
+        <img src="images/Acadia/IMGP1625.JPG" data-caption="Percorso attorno a Jordan Pond" alt="Acadia View 2" />
+      </div>
+            <div class="photosub-item">
+        <img src="images/Acadia/IMGP1606.JPG" data-caption="Cervo dalla coda bianca lungo Jordan Pond" alt="Acadia View 3" />
+      </div>
+            <div class="photosub-item">
+        <img src="images/Acadia/IMGP1627.JPG" data-caption="Jordan Pond" alt="Acadia View 4" />
+      </div>
+            <div class="photosub-item">
+        <img src="images/Acadia/IMGP1700dritta.png" data-caption="Vista dalla penisola di Schoodic" alt="Acadia View 5" />
+      </div>
+            <div class="photo-item">
+        <img src="images/Acadia/IMGP1647.JPG" data-caption="Vista da Cadillac Mountain" alt="Acadia View 6" />
+      </div>
+            <div class="photosub-item">
+        <img src="images/Acadia/IMGP1674.JPG" data-caption="Penisola di Schoodic" alt="Acadia View 7" />
+      </div>
+            <div class="photosub-item">
+        <img src="images/Acadia/IMGP1614.JPG" data-caption="Jordan Pond" alt="Acadia View 8" />
+      </div>
+            <div class="photosub-item">
+        <img src="images/Acadia/IMGP1578.JPG" data-caption="Pescatore sulla penisola di Schoodic" alt="Acadia View 9" />
+      </div>
+            <div class="photosub-item">
+        <img src="images/Acadia/IMGP1688.JPG" data-caption="Vista dalla penisola di Schoodic" alt="Acadia View 10" />
+      </div>
+    </div>
+  </section>
+  <!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-btn prev" onclick="event.stopPropagation(); showPrev()">&larr;</button>
+  <img id="lightbox-img" />
+  <p id="lightbox-caption"></p>
+  <button class="lightbox-btn next" onclick="event.stopPropagation(); showNext()">&rarr;</button>
+</div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Marco Galimberti. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
