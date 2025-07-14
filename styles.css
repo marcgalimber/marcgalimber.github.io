@@ -74,11 +74,6 @@
 }
 
 
-
-
-
-
-
 @media screen and (max-width: 960px) {
     .navbar__container{
         display: flex;
@@ -109,7 +104,7 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 0.1vh;
+        height: 100vh;
         font-size: 1.6rem;
     }
 
@@ -145,6 +140,10 @@
 
     .navbar__toggle .bar{
         display: block;
+        cursor: pointer;
+    }
+
+    .navbar__toggle {
         cursor: pointer;
     }
 
