@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+  if (window.location.pathname === '/' || window.location.pathname === '') {
+    window.location.replace('index.html');
+  }
+</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5KD5DGD3VT"></script>
@@ -10,11 +15,6 @@
   gtag('js', new Date());
 
   gtag('config', 'G-5KD5DGD3VT');
-</script>
-<script>
-  if (window.location.pathname === '/' || window.location.pathname === '') {
-    window.location.replace('index.html');
-  }
 </script>
 
   <meta charset="UTF-8" />
