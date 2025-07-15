@@ -114,6 +114,11 @@ function loadNavbar(language = 'en') {
 function switchLanguage(targetLang) {
   const currentPage = window.location.pathname.split('/').pop();
 
+  // Fallback to index.html if empty
+  if (!currentPage || currentPage === '') {
+    currentPage = 'index.html';
+  }
+
   let newPage;
   if (targetLang === 'en') {
     newPage = currentPage.replace('_it', '');
