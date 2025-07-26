@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5KD5DGD3VT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5KD5DGD3VT');
+</script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parco Nazionale del Joshua Tree | Marco Galimberti</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <div id="navbar-placeholder"></div>
+
+  <!-- Joshua Tree National Park Section -->
+  <section class="photos-section">
+    <h2 class="section-title">Parco Nazionale del Joshua Tree (California)</h2>
+    <p>Nella California del Sud, dove i deserti del Mojave e del Colorado si incontrano, si trova il Parco Nazionale del 
+      Joshua Tree. Il parco prende il nome dall’iconico Joshua Tree, una pianta che prospera nel clima ostile del deserto. 
+      L’albero riesce perfino a offrirti un po’ d’ombra — letteralmente — e potresti quasi pensare che meriti un nuovo 
+      nome: l’amico Joshua. Se puoi, visita il parco al tramonto, quando i colori del cielo californiano diventano uno 
+      spettacolo indimenticabile.<br>
+      <strong>Consiglio culinario (o meglio, di sopravvivenza):</strong> Porta da mangiare. E tanta, tantissima acqua! 
+      In estate, le temperature possono raggiungere livelli assurdi, e rimanere idratati non è un’opzione. Fa davvero 
+      caldo là fuori!</p>
+
+    <div class="photosub-gallery">
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753563928/IMGP0860_ygxk1a.jpg" data-caption="Joshua Tree" alt="Joshua Tree View 1" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753563931/IMGP0864_f7bnnh.jpg" data-caption="Joshua Tree" alt="Joshua Tree View 2" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753563934/IMGP0869_wvldgq.jpg" data-caption="Escursionisti accaldati lungo il sentiero" alt="Joshua Tree View 3" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753563937/IMGP0874_q4saha.jpg" data-caption="Sentiero" alt="Joshua Tree View 4" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753563941/IMGP0884_ji4tqo.jpg" data-caption="Vista di rocce" alt="Joshua Tree View 5" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753563945/IMGP0889_aqxlmd.jpg" data-caption="Deserto" alt="Joshua Tree View 6" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753564033/IMGP0899_shrd1y.jpg" data-caption="Deserto" alt="Joshua Tree View 7" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-btn prev" onclick="event.stopPropagation(); showPrev()">&larr;</button>
+    <img id="lightbox-img" />
+    <p id="lightbox-caption"></p>
+    <button class="lightbox-btn next" onclick="event.stopPropagation(); showNext()">&rarr;</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Marco Galimberti. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
