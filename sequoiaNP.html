@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5KD5DGD3VT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5KD5DGD3VT');
+</script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sequoia National Park | Marco Galimberti</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <div id="navbar-placeholder"></div>
+
+  <!-- Sequoia National Park Section -->
+  <section class="photos-section">
+    <h2 class="section-title">Sequoia National Park (California)</h2>
+    <p> Sequoia National Park is located in central California and, as its name suggests, it’s famous for its gigantic and spectacular sequoias. These 
+      trees play a crucial role in the ecosystem of the western US: they need fire to reproduce (read more about this fascinating relationship on NPS website 
+      https://www.nps.gov/seki/learn/nature/giant-sequoias-and-fire.htm). However, the park offers much more than just sequoias. It also features a waterfall 
+      (the Tokopah Falls), a prominent granite dome (Moro Rock) from which you can enjoy panoramic views of the park, and rich variety of wildlife. <br>
+      <strong>Culinary suggestion:</strong> I haven’t tried the restaurants which are in the park. But if you bring food with you along the trails, remember 
+      that is already bear country and take the necessary precautions.</p>
+
+    <div class="photosub-gallery">
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913901/IMGP0633_rhh5ng.jpg" data-caption="Sequoias" alt="Sequoia View 1" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913896/IMGP0591_zamq7o.jpg" data-caption="Sequoias including General Sherman Tree" alt="Sequoia View 2" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913897/IMGP0615_df760x.jpg" data-caption="General Sherman Tree" alt="Sequoia View 3" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913900/IMGP0627_qcqvmr.jpg" data-caption="Chipmunk" alt="Sequoia View 4" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913904/IMGP0646_f5eqnq.jpg" data-caption="View of Moro Rock" alt="Sequoia View 5" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913906/IMGP0670_y7cpbr.jpg" data-caption="Yellow-bellied marmot (Marmota flaviventris)" alt="Sequoia View 6" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913909/IMGP0676_kspbvy.jpg" data-caption="Tokopah Falls" alt="Sequoia View 7" />
+      </div>
+            <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913910/IMGP0696_f0a3dj.jpg" data-caption="Tokopah Falls trail" alt="Sequoia View 8" />
+      </div>
+            <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913914/IMGP0698_iw2hrz.jpg" data-caption="Burnt trees" alt="Sequoia View 9" />
+      </div>
+            <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913917/IMGP0703_uu54cl.jpg" data-caption="View from Moro Rock" alt="Sequoia View 10" />
+      </div>
+            <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913918/IMGP0718_nnf6js.jpg" data-caption="Sequoias" alt="Sequoia View 11" />
+      </div>
+            <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913923/IMGP0736_twajzv.jpg" data-caption="Tunnel log" alt="Sequoia View 12" />
+      </div>
+            <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913925/IMGP0737_vtga51.jpg" data-caption="Sequoias" alt="Sequoia View 13" />
+      </div>
+            <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913932/IMGP0761_qxils2.jpg" data-caption="Sequoias" alt="Sequoia View 14" />
+      </div>
+            <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753913933/IMGP0763_gmwjjd.jpg" data-caption="California mule deer" alt="Sequoia View 15" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-btn prev" onclick="event.stopPropagation(); showPrev()">&larr;</button>
+    <img id="lightbox-img" />
+    <p id="lightbox-caption"></p>
+    <button class="lightbox-btn next" onclick="event.stopPropagation(); showNext()">&rarr;</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Marco Galimberti. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
