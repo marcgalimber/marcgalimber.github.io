@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5KD5DGD3VT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5KD5DGD3VT');
+</script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yellowstone National Park | Marco Galimberti</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <div id="navbar-placeholder"></div>
+
+  <!-- Yellowstone National Park Section -->
+  <section class="photos-section">
+    <h2 class="section-title">Grand Teton National Park (Wyoming)</h2>
+    <p> Yellowstone National Park is the oldest national park in the United States (established on 
+March 1, 1872) and is located in three states —Wyoming, Montana, and Idaho. Yellowstone has not only 
+An 
+In this park, you can observe an incredible variety of wildlife and admire the stunning Teton Range mountains. The park offers an extensive network of trails suitable for all hiking levels, and in winter it becomes a popular destination for cross-country skiing. Nearby, you’ll also find resorts for downhill skiing, such as the Jackson Hole Mountain Resort.
+Culinary suggestion: Several locations in the park offer both food and souvenirs along with fantastic views of the Tetons – for example the Signal Mountain Lodge. <br>
+      <strong>Several locations in the park offer both food and souvenirs along with 
+        fantastic views of the Tetons – for example the Signal Mountain Lodge.</p>
+
+    <div class="photosub-gallery">
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1755241669/IMGP2065_sxhf5o.jpg" data-caption="View of Grand Teton with fog" alt="Yellowstone View 1" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1755241603/IMGP1984_cwgpbt.jpg" data-caption="Bisons" alt="Yellowstone View 2" />
+      </div>
+      
+
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-btn prev" onclick="event.stopPropagation(); showPrev()">&larr;</button>
+    <img id="lightbox-img" />
+    <p id="lightbox-caption"></p>
+    <button class="lightbox-btn next" onclick="event.stopPropagation(); showNext()">&rarr;</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Marco Galimberti. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

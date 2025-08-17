@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5KD5DGD3VT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5KD5DGD3VT');
+</script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parco Nazionale di Yellowstone | Marco Galimberti</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <div id="navbar-placeholder"></div>
+
+  <!-- Yellowstone National Park Section -->
+  <section class="photos-section">
+    <h2 class="section-title">Parco Nazionale di Yellowstone (Wyoming, Montana, Idaho)</h2>
+    <p>Il Parco Nazionale del Grand Teton si trova nella valle di Jackson Hole, nel nord-ovest del Wyoming, a 
+      soli 16 km (10 miglia) a sud dell’ingresso meridionale di Yellowstone. In questo parco potrai ammirare un’incredibile 
+      varietà di fauna selvatica e lasciarti incantare dalle maestose montagne della Teton Range. Un’ampia rete di sentieri 
+      adatta a tutti i livelli di escursionismo invita a esplorare il territorio, mentre in inverno il parco si trasforma 
+      in una meta ambita per lo sci di fondo. Nelle vicinanze si trovano anche rinomate località per lo sci alpino, come il 
+      Jackson Hole Mountain Resort.<br>
+      <strong>Consiglio culinario:</strong> in diversi punti del parco potrai gustare piatti deliziosi e acquistare souvenir, 
+      il tutto con una vista spettacolare sui Tetons – ad esempio al Signal Mountain Lodge.</p>
+
+    <div class="photosub-gallery">
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1755241669/IMGP2065_sxhf5o.jpg" data-caption="Vista del Grand Teton con nebbia" alt="Yellowstone View 1" />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1755241603/IMGP1984_cwgpbt.jpg" data-caption="Bisonti" alt="Yellowstone View 2" />
+      </div>
+
+
+      
+      
+
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-btn prev" onclick="event.stopPropagation(); showPrev()">&larr;</button>
+    <img id="lightbox-img" />
+    <p id="lightbox-caption"></p>
+    <button class="lightbox-btn next" onclick="event.stopPropagation(); showNext()">&rarr;</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Marco Galimberti. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
