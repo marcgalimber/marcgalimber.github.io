@@ -112,22 +112,25 @@ function loadNavbar(language = 'en') {
 
 // Language switching
 function switchLanguage(targetLang) {
-  const currentPage = window.location.pathname.split('/').pop();
+  let currentPage = window.location.pathname.split('/').pop();
 
-  // Fallback to index.html if empty
+  // Fallback if currentPage is empty
   if (!currentPage || currentPage === '') {
     currentPage = 'index.html';
   }
 
+  // Rimuove eventuali suffissi di lingua esistenti
+  currentPage = currentPage.replace(/_(it|en|fr)\.html$/, '.html');
+
+  // Costruisci il nuovo nome del file in base alla lingua target
   let newPage;
   if (targetLang === 'en') {
-    newPage = currentPage.replace(/(_it|_fr)?\.html$/, '.html');
-  } else if (targetLang === 'it') {
-    newPage = currentPage.replace(/(_en|_fr)?\.html$/, '_it.html');
-  } else if (targetLang === 'fr') {
-    newPage = currentPage.replace(/(_en|_it)?\.html$/, '_fr.html');
+    newPage = currentPage.replace('.html', '.html'); // Niente suffisso per inglese o puoi lasciarlo
+  } else {
+    newPage = currentPage.replace('.html', `_${targetLang}.html`);
   }
 
+  // Reindirizza alla nuova pagina
   window.location.href = newPage;
 }
 
