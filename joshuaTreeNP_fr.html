@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta name="description" content="Photographies du Parc National de Joshua Tree en Californie : paysages désertiques, rochers imposants et l’emblématique Joshua Tree. Marco Galimberti raconte la nature et la faune à travers la photographie." />
+<meta name="keywords" content="Parc National de Joshua Tree, Californie, Joshua Tree, paysages désertiques, rochers imposants, faune du désert, randonnée dans le désert, coucher du soleil en Californie, photographie de la nature, plantes du désert, nature sauvage, aventure en Californie, flore du Mojave, parcs naturels, photographie de faune et flore, voyage dans le désert">
+
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5KD5DGD3VT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5KD5DGD3VT');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parc National de Joshua Tree – Photographie et Faune | Marco Galimberti</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <div id="navbar-placeholder"></div>
+
+  <!-- Joshua Tree National Park Section -->
+  <section class="photos-section">
+    <h2 class="section-title">Parc National de Joshua Tree (Californie)</h2>
+    <p>Dans le sud de la Californie, où les déserts de Mojave et de Colorado se rencontrent, se trouve le Parc National de Joshua Tree. Le parc tire son nom de l'emblématique Joshua Tree, un arbre qui prospère dans les conditions extrêmes du désert. Cet arbre, véritable symbole du parc, offre même un peu d’ombre et, si vous voulez, vous pourriez presque l'appeler "l'ami Joshua". Si vous en avez l'occasion, visitez le parc au coucher du soleil, lorsque les couleurs du ciel californien deviennent un spectacle incroyable. <br>
+    <strong>Conseil culinaire (ou plutôt de survie) :</strong> Apportez de la nourriture et surtout beaucoup d’eau ! En été, les températures peuvent être extrêmement élevées, et il est primordial de rester hydraté pour profiter de votre expérience en toute sécurité.</p>
+
+    <div class="photosub-gallery">
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753563928/IMGP0860_ygxk1a.jpg" data-caption="Joshua Tree" alt="Un arbre Joshua Tree majestueux dans le désert, typique du Parc National de Joshua Tree, avec des branches tordues et des feuilles en forme de pointes." />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753563931/IMGP0864_f7bnnh.jpg" data-caption="Joshua Tree" alt="Un autre Joshua Tree dans le désert." />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753563934/IMGP0869_wvldgq.jpg" data-caption="Randonneurs accablés par la chaleur sur un sentier dans le Parc National de Joshua Tree" alt="Des randonneurs marchant sur un sentier désertique sous le soleil intense du désert." />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753563937/IMGP0874_q4saha.jpg" data-caption="Sentier dans le parc" alt="Un sentier sinueux traversant le désert, bordé de rochers imposants typiques du parc Joshua Tree." />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753563941/IMGP0884_ji4tqo.jpg" data-caption="Vue des rochers" alt="Des formations rocheuses géantes du Parc National de Joshua Tree sous un ciel bleu clair." />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753563945/IMGP0889_aqxlmd.jpg" data-caption="Désert de Joshua Tree" alt="Un vaste paysage désertique du parc, avec des formations rocheuses distinctives sous un ciel ensoleillé." />
+      </div>
+      <div class="photosub-item">
+        <img src="https://res.cloudinary.com/dhoextkzu/image/upload/v1753564033/IMGP0899_shrd1y.jpg" data-caption="Désert à Joshua Tree" alt="Un désert avec une vue panoramique sur des formations rocheuses, une forêt de Chollas et des montagnes lointaines sous la chaleur du soleil." />
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-btn prev" onclick="event.stopPropagation(); showPrev()">&larr;</button>
+    <img id="lightbox-img" />
+    <p id="lightbox-caption"></p>
+    <button class="lightbox-btn next" onclick="event.stopPropagation(); showNext()">&rarr;</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Marco Galimberti. Tous droits réservés.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

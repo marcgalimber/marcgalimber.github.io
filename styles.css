@@ -7,7 +7,7 @@
 
 .navbar{
     background: white;
-    height: 80px;
+    height: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
 .navbar__container{
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 85px;
     z-index: 1;
     width: 100%;
     max-width: 1600px;
@@ -55,7 +55,7 @@
 }
 
 .navbar__item{
-    height: 80px;
+    height: 85px;
 }
 
 .navbar__links{
@@ -268,7 +268,7 @@
   flex-direction: column;
   align-items: center;
   gap: 0.1rem; /* Reduced gap */
-  padding: 0.2rem; /* Less padding */
+  padding: 0.1rem; /* Less padding */
   line-height: 1;
 }
 
@@ -285,11 +285,16 @@
 }
 
 .lang-switch .flag-icon:first-child {
-  margin-top: 0.5rem; /* adjust as needed */
+  margin-top: 0.2rem; /* adjust as needed */
+}
+
+.lang-switch .flag-icon:nth-child(2) {
+  /* Applica gli stili al secondo figlio */
+  margin-top: -0.7rem; /* Modifica questo valore come necessario */
 }
 
 .lang-switch .flag-icon:last-child {
-  margin-top: -0.5rem;      /* ensures IT emoji stays put */
+  margin-top: -0.7rem;      /* ensures IT emoji stays put */
 }
 
 .site-footer {

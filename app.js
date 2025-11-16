@@ -83,7 +83,7 @@ document.addEventListener('keydown', function (e) {
 
 // Load navbar and attach mobile toggle
 function loadNavbar(language = 'en') {
-  const file = language === 'it' ? 'navbar_it.html' : 'navbar.html';
+  const file = language === 'it' ? 'navbar_it.html' : language === 'fr' ? 'navbar_fr.html' : 'navbar.html';
 
   fetch(file)
     .then(response => {
@@ -121,11 +121,18 @@ function switchLanguage(targetLang) {
 
   let newPage;
   if (targetLang === 'en') {
-    newPage = currentPage.replace('_it', '');
+    newPage = currentPage.replace('_it', '').replace('_fr', '');;
   } else if (targetLang === 'it') {
     const parts = currentPage.split('.');
-    if (!currentPage.includes('_it')) {
+    if (!currentPage.includes('_it') && !currentPage.includes('_fr')) {
       newPage = parts[0] + '_it.' + parts[1];
+    } else {
+      newPage = currentPage;
+    }
+  } else if (targetLang === 'fr') {
+    const parts = currentPage.split('.');
+    if (!currentPage.includes('_fr')) {
+      newPage = parts[0] + '_fr.' + parts[1];
     } else {
       newPage = currentPage;
     }
@@ -142,5 +149,8 @@ document.addEventListener('click', function (e) {
   } else if (e.target.classList.contains('lang-it')) {
     e.preventDefault();
     switchLanguage('it');
+  } else if (e.target.classList.contains('lang-fr')) { // Added French language button handler
+    e.preventDefault();
+    switchLanguage('fr');
   }
 });
