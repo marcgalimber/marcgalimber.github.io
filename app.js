@@ -121,21 +121,11 @@ function switchLanguage(targetLang) {
 
   let newPage;
   if (targetLang === 'en') {
-    newPage = currentPage.replace('_it', '').replace('_fr', '');;
+    newPage = currentPage.replace(/(_it|_fr)?\.html$/, '.html');
   } else if (targetLang === 'it') {
-    const parts = currentPage.split('.');
-    if (!currentPage.includes('_it') && !currentPage.includes('_fr')) {
-      newPage = parts[0] + '_it.' + parts[1];
-    } else {
-      newPage = currentPage;
-    }
+    newPage = currentPage.replace(/(_en|_fr)?\.html$/, '_it.html');
   } else if (targetLang === 'fr') {
-    const parts = currentPage.split('.');
-    if (!currentPage.includes('_fr')) {
-      newPage = parts[0] + '_fr.' + parts[1];
-    } else {
-      newPage = currentPage;
-    }
+    newPage = currentPage.replace(/(_en|_it)?\.html$/, '_fr.html');
   }
 
   window.location.href = newPage;
