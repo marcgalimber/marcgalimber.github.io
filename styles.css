@@ -305,7 +305,7 @@
   font-size: 1.0rem;
   width: 100%;
   clear: both;
-  margin-top: 2rem;
+  margin-top: auto;
 }
 
 .social-icons {
@@ -444,7 +444,7 @@
 /* Photos Page Layout */
 
 .photos-section {
-  padding: 2rem;
+  padding: 0rem;
   background-color: #fff;
   color: #333;
 }
@@ -620,7 +620,9 @@
 }
 
 .photos-section p {
-  margin-bottom: 2rem; /* or more if needed */
+  margin-bottom: 2rem;
+    margin-left: 3rem; 
+  margin-right: 3rem;
 }
 .photosub-gallery {
   column-width: 300px;        /* forza la larghezza stimata delle colonne */
@@ -711,4 +713,119 @@
 
 .lightbox-btn.next {
   right: 1rem;
+}
+
+
+
+/* Sezione Blog */
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.25s ease;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* IMMAGINE */
+.card-image {
+  width: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 12px;
+  transition: transform 0.35s ease;
+}
+
+/* Effetto hover */
+.card-image-link:hover .card-image {
+  transform: scale(1.05);
+}
+
+
+/* Data centrata e più leggibile */
+.card-date {
+  font-size: 1rem;
+  color: #555;
+  margin: 15px 0 0 0;
+  font-weight: 500;
+}
+
+/* Titolo grande e centrato */
+.card-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 10px auto 0 auto;
+  line-height: 1.25;
+}
+
+.card-title a {
+  text-decoration: none;
+  color: #222;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ===============================
+   Stile Articolo Blog
+=============================== */
+
+.article-section {
+  max-width: 900px;        /* Limita la larghezza massima */
+  margin: 2rem auto;       /* Centra la sezione */
+  padding: 0 1rem;         /* Padding sui lati */
+}
+
+.blog-article h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.blog-article p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.blog-article figure {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.blog-article figure img {
+  max-width: 100%;      /* L'immagine non supera la larghezza del container */
+  height: auto;
+  border-radius: 8px;   /* Angoli arrotondati */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Ombra leggera */
+}
+
+.blog-article figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.blog-article .article-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: -0.3rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  text-align: left; /* centrata sotto il titolo */
 }

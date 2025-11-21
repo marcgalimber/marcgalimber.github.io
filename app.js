@@ -85,7 +85,7 @@ document.addEventListener('keydown', function (e) {
 function loadNavbar(language = 'en') {
   const file = language === 'it' ? 'navbar_it.html' : language === 'fr' ? 'navbar_fr.html' : 'navbar.html';
 
-  fetch(file)
+fetch('/' + file)
     .then(response => {
       if (!response.ok) throw new Error(`Failed to load ${file}`);
       return response.text();
