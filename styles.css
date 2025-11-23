@@ -449,6 +449,13 @@
   color: #333;
 }
 
+.photos-section h1 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
 .photos-section h2 {
   font-size: 2rem;
   margin-top: 2rem;
@@ -489,6 +496,7 @@
     padding: 1rem;
   }
 
+  .photos-section h1,
   .photos-section h2,
   .photos-section h3 {
     text-align: center;
