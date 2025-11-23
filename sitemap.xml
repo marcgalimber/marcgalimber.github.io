@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- HOME -->
+  <url>
+    <loc>https://www.marcogalimberti.com</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/index_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/index_fr.html"/>
+  </url>
+
+  <!-- ABOUT -->
+  <url>
+    <loc>https://www.marcogalimberti.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/about_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/about_fr.html"/>
+  </url>
+
+  <!-- BLOG -->
+  <url>
+    <loc>https://www.marcogalimberti.com/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog_fr.html"/>
+  </url>
+
+  <!-- PHOTOS -->
+  <url>
+    <loc>https://www.marcogalimberti.com/photos.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/photos.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/photos_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/photos_fr.html"/>
+  </url>
+
+  <!-- US NATIONAL PARKS -->
+  <url>
+    <loc>https://www.marcogalimberti.com/US_NationalParks.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/US_NationalParks.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/US_NationalParks_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/US_NationalParks_fr.html"/>
+  </url>
+
+  <!-- NATIONAL PARKS SUBPAGES -->
+  <url>
+    <loc>https://www.marcogalimberti.com/Acadia.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/Acadia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/Acadia_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/Acadia_fr.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.marcogalimberti.com/Everglades.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/Everglades.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/Everglades_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/Everglades_fr.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.marcogalimberti.com/GrandTeton.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/GrandTeton.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/GrandTeton_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/GrandTeton_fr.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.marcogalimberti.com/GreatSmokyMountains.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/GreatSmokyMountains.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/GreatSmokyMountains_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/GreatSmokyMountains_fr.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.marcogalimberti.com/JoshuaTree.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/JoshuaTree.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/JoshuaTree_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/JoshuaTree_fr.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.marcogalimberti.com/Katmai.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/Katmai.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/Katmai_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/Katmai_fr.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.marcogalimberti.com/Sequoia.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/Sequoia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/Sequoia_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/Sequoia_fr.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.marcogalimberti.com/Yellowstone.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/Yellowstone.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/Yellowstone_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/Yellowstone_fr.html"/>
+  </url>
+
+  <!-- SHOP -->
+  <url>
+    <loc>https://www.marcogalimberti.com/shop.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/shop.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/shop_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/shop_fr.html"/>
+  </url>
+
+  <!-- CONTACT -->
+  <url>
+    <loc>https://www.marcogalimberti.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/contact_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/contact_fr.html"/>
+  </url>
+
+</urlset>
