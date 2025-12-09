@@ -733,7 +733,7 @@
   border-radius: 16px;
   overflow: hidden;
   transition: transform 0.25s ease;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
   padding-top: 20px;
   text-align: center;
 }
