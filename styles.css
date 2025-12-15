@@ -5,6 +5,10 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+html{
+  background-color: #FAFAFA;
+}
+
 .navbar{
     background: #FAFAFA;
     height: 85px;
@@ -435,7 +439,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: transparent; /* Invisible */
+  background: image-overlay; /* Invisible */
   z-index: 2;
   pointer-events: all;
   cursor: default;
