@@ -6,7 +6,7 @@
 }
 
 .navbar{
-    background: white;
+    background: #FAFAFA;
     height: 85px;
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@
 }
 
 #navbar__logo{
-    background-color:  white;
+    background-color: #FAFAFA;
     background-size: 100%;
     -webkit-text-fill-color: black;
     -moz-text-fill-color: black;
@@ -99,7 +99,7 @@
     }
 
     .navbar__menu.active{
-        background: white;
+        background: #FAFAFA;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -162,7 +162,7 @@
 
 /* Hero Section CSS */
 .main{
-    background-color: white;
+    background-color: #FAFAFA;
 }
 
 .main__container{
@@ -200,7 +200,7 @@
   align-items: center;
   padding: 2rem;
   margin-top: 2rem;
-  background-color: white;
+  background-color: #FAFAFA;
   color: #444;
   text-align: center;
   clear: both; /* prevents overlapping with floated images */
@@ -240,7 +240,7 @@
 }
 
 .lang-switch {
-  background: white;
+  background: #FAFAFA;
   border: none;
   font-size: 1rem;
   padding: 0.5rem;
@@ -259,7 +259,7 @@
     text-align: center;
     padding: 1.5rem 0;
     font-size: 1.2rem;
-    background: white;
+    background: #FAFAFA;
   }
 }
 
@@ -330,7 +330,7 @@
 /* Contact Page Styles */
 .contact-section {
   padding: 4rem 2rem;
-  background-color: white;
+  background-color: #FAFAFA;
   color: #333;
   display: flex;
   justify-content: center;
@@ -349,7 +349,7 @@
 
 
 .about-section {
-  background-color: white;
+  background-color: #FAFAFA;
   padding: 2rem 1rem;
   display: flex;
   justify-content: center;
@@ -445,7 +445,7 @@
 
 .photos-section {
   padding: 0rem;
-  background-color: #fff;
+  background-color: #f0f0f0;;
   color: #333;
 }
 
@@ -566,7 +566,7 @@
   list-style: none;
   margin: 0;
   padding: 0.5rem 0;
-  background-color: white;
+  background-color: #FAFAFA;
   border-radius: 0 0 8px 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   z-index: 999;
@@ -687,7 +687,7 @@
 }
 
 .lightbox p {
-  color: #fff;
+  color: #f0f0f0;;
   margin-top: 1rem;
   font-size: 1.1rem;
   text-align: center;
@@ -703,7 +703,7 @@
   top: 50%;
   transform: translateY(-50%);
   font-size: 2rem;
-  color: white;
+  color: #FAFAFA;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -729,7 +729,7 @@
 
 /* Card */
 .card {
-  background: #fff;
+  background: #f0f0f0;;
   border-radius: 16px;
   overflow: hidden;
   transition: transform 0.25s ease;
