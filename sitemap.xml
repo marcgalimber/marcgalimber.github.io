@@ -35,6 +35,14 @@
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/BearsOfKatmai_fr.html"/>
 </url>
 
+<!-- ARTICOLO Crocodiles, Manatees, and Alligators: Everglades Stories -->
+<url>
+  <loc>https://www.marcogalimberti.com/blog/EvergladesStories.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/EvergladesStories.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/EvergladesStories_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/EvergladesStories_fr.html"/>
+</url>
+
 
   <!-- PHOTOS -->
   <url>
