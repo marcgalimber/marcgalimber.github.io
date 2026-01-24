@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Load navbar
   const lang = document.documentElement.lang || 'en';
   loadNavbar(lang);
+  loadFooter(lang);
 });
 
 // Prevent right-click on images
@@ -147,3 +148,25 @@ document.addEventListener('click', function (e) {
     switchLanguage('fr');
   }
 });
+
+
+//footer
+function loadFooter(language = 'en') {
+  const footers = {
+    en: `© <span id="year"></span> Marco Galimberti. All rights reserved.`,
+    it: `© <span id="year"></span> Marco Galimberti. Tutti i diritti riservati.`,
+    fr: `© <span id="year"></span> Marco Galimberti. Tous droits réservés.`
+  };
+
+  const footerHTML = `
+    <footer class="site-footer">
+      <p>${footers[language] || footers.en}</p>
+    </footer>
+  `;
+
+  const footer = document.getElementById('footer-placeholder');
+  if (!footer) return;
+
+  footer.innerHTML = footerHTML;
+  footer.querySelector('#year').textContent = new Date().getFullYear();
+}
