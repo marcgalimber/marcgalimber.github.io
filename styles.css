@@ -744,7 +744,7 @@ html{
 
 /* IMMAGINE */
 .card-image {
-  width: 50%;
+  width: 65%;
   object-fit: cover;
   margin: 0 auto;
   border-radius: 12px;
