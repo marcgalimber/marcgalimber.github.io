@@ -243,19 +243,7 @@ html{
   width: 100%;
 }
 
-.lang-switch {
-  background: #FAFAFA;
-  border: none;
-  font-size: 1rem;
-  padding: 0.5rem;
-  cursor: pointer;
-  color: black;
-}
 
-
-.lang-switch:focus {
-  outline: none;
-}
 
 @media screen and (max-width: 960px) {
   .lang-switch {
@@ -267,39 +255,6 @@ html{
   }
 }
 
-.lang-switch {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem; /* Reduced gap */
-  padding: 0.1rem; /* Less padding */
-  line-height: 1;
-}
-
-.flag-icon {
-  font-size: 24px;
-  padding: 0.3rem 0;
-  text-decoration: none;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
-
-.flag-icon:hover {
-  transform: scale(1.2);
-}
-
-.lang-switch .flag-icon:first-child {
-  margin-top: 0.2rem; /* adjust as needed */
-}
-
-.lang-switch .flag-icon:nth-child(2) {
-  /* Applica gli stili al secondo figlio */
-  margin-top: -0.7rem; /* Modifica questo valore come necessario */
-}
-
-.lang-switch .flag-icon:last-child {
-  margin-top: -0.7rem;      /* ensures IT emoji stays put */
-}
 
 .site-footer {
   text-align: center;
@@ -594,6 +549,110 @@ html{
 /* Show dropdown on hover */
 .navbar__item.dropdown:hover .dropdown-menu {
   display: block;
+}
+
+/* =========================
+   Dropdown Lingue
+========================= */
+/* Desktop: tendina allineata a destra */
+.lang-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.lang-dropdown > a.current-lang {
+  display: flex;               /* Flex per allineamento */
+  align-items: center;         /* Centra verticalmente con testo */
+  gap: 0.3rem;                 /* Spazio tra testo e freccia */
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.lang-dropdown > a.current-lang::after {
+  content: '▼';               /* Freccia */
+  font-size: 0.7rem;
+  display: inline-block;
+  margin-left: 0.3rem;
+  transition: transform 0.3s ease;
+}
+
+/* Rotazione freccia quando menu attivo */
+.lang-dropdown > a.current-lang.active::after {
+  transform: rotate(180deg);
+}
+
+.lang-dropdown .lang-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;               /* <-- allinea a destra del toggle */
+  margin: 0;
+  padding: 0.3rem 0;
+  background-color: #FAFAFA;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  min-width: max-content;
+  z-index: 999;
+  list-style: none;
+  text-align: left;
+}
+
+.lang-dropdown .lang-menu li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  color: black;
+  text-decoration: none;
+}
+
+.lang-dropdown .lang-menu li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Mostra tendina quando attiva */
+.lang-dropdown .lang-menu.active {
+  display: block;
+}
+
+/* Mobile: tendina sotto centrata */
+@media screen and (max-width: 960px) {
+  .lang-dropdown > a.current-lang {
+    width: 100%;
+    padding: 1.5rem 0;
+    font-size: 1.6rem;
+    display: flex;               /* Cambiato da block a flex */
+    align-items: center;         /* Centra verticalmente */
+    justify-content: center;     /* Centra orizzontalmente */
+  }
+
+  .lang-dropdown > a.current-lang::after {
+    content: '▼';
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease;
+  }
+}
+
+  .lang-dropdown .lang-menu {
+    position: static;      /* togli assoluto, quindi sotto */
+    display: none;         /* nascosto di default */
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    box-shadow: none;      /* opzionale */
+    border-radius: 0;      /* opzionale */
+  }
+
+  .lang-dropdown .lang-menu li a {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+  }
+
+  .lang-dropdown .lang-menu.active {
+    display: block;
+  }
 }
 
 /* Submenu (US National Parks) */

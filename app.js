@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Load navbar
+  // Load navbar and footer
   const lang = document.documentElement.lang || 'en';
   loadNavbar(lang);
   loadFooter(lang);
@@ -86,7 +86,7 @@ document.addEventListener('keydown', function (e) {
 function loadNavbar(language = 'en') {
   const file = language === 'it' ? 'navbar_it.html' : language === 'fr' ? 'navbar_fr.html' : 'navbar.html';
 
-fetch('/' + file)
+  fetch('/' + file)
     .then(response => {
       if (!response.ok) throw new Error(`Failed to load ${file}`);
       return response.text();
@@ -97,14 +97,33 @@ fetch('/' + file)
 
       container.innerHTML = html;
 
-      // Reattach mobile menu functionality
-      const menu = document.querySelector('#mobile-menu');
-      const menuLinks = document.querySelector('.navbar__menu');
+      // Mobile menu toggle
+      const menu = container.querySelector('#mobile-menu');
+      const menuLinks = container.querySelector('.navbar__menu');
 
       if (menu && menuLinks) {
         menu.addEventListener('click', () => {
           menu.classList.toggle('is-active');
           menuLinks.classList.toggle('active');
+        });
+      }
+
+      // Language dropdown toggle (mobile)
+      const langDropdownToggle = container.querySelector('.lang-dropdown > a.current-lang');
+      const langMenu = container.querySelector('.lang-dropdown .lang-menu');
+
+      if (langDropdownToggle && langMenu) {
+        langDropdownToggle.addEventListener('click', function (e) {
+        e.preventDefault(); // prevent page jump
+        langMenu.classList.toggle('active'); // show/hide dropdown
+        langDropdownToggle.classList.toggle('active'); // aggiungi classe per freccia
+        });
+
+        // Close dropdown if clicked outside
+        document.addEventListener('click', function (e) {
+          if (!e.target.closest('.lang-dropdown')) {
+            langMenu.classList.remove('active');
+          }
         });
       }
     })
@@ -115,23 +134,19 @@ fetch('/' + file)
 function switchLanguage(targetLang) {
   let currentPage = window.location.pathname.split('/').pop();
 
-  // Fallback if currentPage is empty
   if (!currentPage || currentPage === '') {
     currentPage = 'index.html';
   }
 
-  // Rimuove eventuali suffissi di lingua esistenti
   currentPage = currentPage.replace(/_(it|en|fr)\.html$/, '.html');
 
-  // Costruisci il nuovo nome del file in base alla lingua target
   let newPage;
   if (targetLang === 'en') {
-    newPage = currentPage.replace('.html', '.html'); // Niente suffisso per inglese o puoi lasciarlo
+    newPage = currentPage.replace('.html', '.html');
   } else {
     newPage = currentPage.replace('.html', `_${targetLang}.html`);
   }
 
-  // Reindirizza alla nuova pagina
   window.location.href = newPage;
 }
 
@@ -143,14 +158,13 @@ document.addEventListener('click', function (e) {
   } else if (e.target.classList.contains('lang-it')) {
     e.preventDefault();
     switchLanguage('it');
-  } else if (e.target.classList.contains('lang-fr')) { // Added French language button handler
+  } else if (e.target.classList.contains('lang-fr')) {
     e.preventDefault();
     switchLanguage('fr');
   }
 });
 
-
-//footer
+// Footer
 function loadFooter(language = 'en') {
   const footers = {
     en: `© <span id="year"></span> Marco Galimberti. All rights reserved.`,
