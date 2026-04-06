@@ -11,7 +11,7 @@ html{
 
 .navbar{
     background: #FAFAFA;
-    height: 100px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ html{
 .navbar__container{
     display: flex;
     justify-content: space-between;
-    height: 85px;
+    height: 70px;
     z-index: 1;
     width: 100%;
     max-width: 1600px;
@@ -59,7 +59,7 @@ html{
 }
 
 .navbar__item{
-    height: 85px;
+    height: 70px;
 }
 
 .navbar__links{
@@ -82,7 +82,7 @@ html{
     .navbar__container{
         display: flex;
         justify-content: space-between;
-        height: 80px;
+        height: 70px;
         z-index: 1;
         width: 100%;
         max-width: 1300px;
