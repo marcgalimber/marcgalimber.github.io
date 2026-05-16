@@ -105,6 +105,16 @@ function loadNavbar(language = 'en') {
         menu.addEventListener('click', () => {
           menu.classList.toggle('is-active');
           menuLinks.classList.toggle('active');
+
+          const mainContents = document.querySelectorAll('.main, .text-block, .image-protect-wrapper, #footer-placeholder');
+
+          mainContents.forEach(element => {
+            if (menuLinks.classList.contains('active')) {
+              element.style.display = 'none';  /* Sparisce tutto il sotto, la pagina diventa "piccola" come il blog */
+            } else {
+              element.style.display = '';       /* Riappare tutto normalmente quando chiudi il menu */
+            }
+          });
         });
       }
 
