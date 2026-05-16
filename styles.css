@@ -210,13 +210,19 @@ html{
   clear: both; /* prevents overlapping with floated images */
 }
 
-.text-block h1 {
-  font-size: 1.8rem;
-  font-style: italic;
-  line-height: 1.5;
+.text-block h1,
+.text-block p {
+  font-size: 1.25rem;           /* Dimensione elegante stile editoriale */
+  font-weight: 300;             /* Font leggero e pulito (elimina il grassetto) */
+  font-style: normal;           /* MODIFICATO: Forza il testo dritto (elimina il corsivo) */
+  color: #2D3748;               /* Grigio antracite scuro (no nero puro) */
+  line-height: 1.7;             /* Spaziatura ariosa tra le righe */
   text-align: center;
-  max-width: 90%;
+  max-width: 750px;             /* Impedisce alle righe di allungarsi troppo su PC */
+  margin: 0 auto;               /* Centra il blocco di testo nella pagina */
 }
+
+
 
 .image-wrapper {
   width: 50%;
@@ -343,10 +349,19 @@ html{
   margin-bottom: 1rem;
 }
 
+/* NUOVO STILE LINK ABOUT */
 .about-text a {
-  color: #555;
-  text-decoration: underline;
+  color: #333;
+  text-decoration: none;             /* Rimuove la sottolineatura standard */
+  border-bottom: 1px solid #CBD5E0;  /* Inserisce il filo grigio sottile coerente con la home */
+  transition: all 0.3s ease;
 }
+
+.about-text a:hover {
+  color: #000;
+  border-bottom-color: #333;
+}
+
 
 .about-image img {
   width: 100%;
@@ -653,7 +668,7 @@ html{
   .lang-dropdown .lang-menu.active {
     display: block;
   }
-}
+
 
 /* Submenu (US National Parks) */
 .submenu-parent {
@@ -899,4 +914,19 @@ body {
   margin-bottom: 1.5rem;
   font-style: italic;
   text-align: left; /* centrata sotto il titolo */
+}
+
+
+.text-block a {
+  color: #3B4E43 !important;         /* Modificato: Verde foresta spento ed elegante */
+  font-style: normal !important;     /* Sicurezza: impedisce al link di diventare corsivo */
+  text-decoration: none !important;
+  border-bottom: 1px solid #CBD5E0 !important; /* Filo grigio sottile sotto il link */
+  transition: all 0.3s ease;
+}
+
+/* AL PASSAGGIO DEL MOUSE (HOVER) */
+.text-block a:hover {
+  color: #2A3A31 !important;         /* Scurisce su un verde muschio profondo */
+  border-bottom-color: #3B4E43 !important; /* La linea sotto diventa del colore del verde originale */
 }
