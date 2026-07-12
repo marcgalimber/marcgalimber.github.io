@@ -43,6 +43,13 @@
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/EvergladesStories_fr.html"/>
 </url>
 
+<!-- ARTICOLO here Eagles Dare: First Backcountry Experience in Glacier Bay -->
+<url>
+  <loc>https://www.marcogalimberti.com/blog/EvergladesStories.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/WhereEaglesDare.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/WhereEaglesDare_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/WhereEaglesDare_fr.html"/>
+</url>
 
   <!-- PHOTOS -->
   <url>
@@ -75,6 +82,14 @@
   <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/evergladesNP.html"/>
   <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/evergladesNP_it.html"/>
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/evergladesNP_fr.html"/>
+</url>
+
+<!-- GLACIER BAY -->
+<url>
+  <loc>https://www.marcogalimberti.com/evergladesNP.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/glacierBayNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/glacierBayNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/glacierBayNP_fr.html"/>
 </url>
 
 <!-- GRAND TETON -->
