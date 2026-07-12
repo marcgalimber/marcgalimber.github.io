@@ -103,9 +103,9 @@
 <!-- GREAT SMOKY MOUNTAINS -->
 <url>
   <loc>https://www.marcogalimberti.com/greatSmokyNP.html</loc>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/greatSmokyNP.html"/>
-  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/greatSmokyNP_it.html"/>
-  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/greatSmokyNP_fr.html"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/greatSmokyMountainsNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/greatSmokyMountainsNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/greatSmokyMountainsNP_fr.html"/>
 </url>
 
 <!-- JOSHUA TREE -->
