@@ -11,6 +11,20 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/index_fr.html"/>
   </url>
 
+  <url>
+    <loc>https://www.marcogalimberti.com/index_it.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/index_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/index_fr.html"/>
+  </url>
+  
+    <url>
+    <loc>https://www.marcogalimberti.com/index_fr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/index_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/index_fr.html"/>
+  </url>
+  
   <!-- ABOUT -->
   <url>
     <loc>https://www.marcogalimberti.com/about.html</loc>
@@ -19,6 +33,20 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/about_fr.html"/>
   </url>
 
+  <url>
+    <loc>https://www.marcogalimberti.com/about_it.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/about_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/about_fr.html"/>
+  </url>
+  
+    <url>
+    <loc>https://www.marcogalimberti.com/about_fr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/about_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/about_fr.html"/>
+  </url>
+  
   <!-- BLOG -->
   <url>
     <loc>https://www.marcogalimberti.com/blog.html</loc>
@@ -27,9 +55,37 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog_fr.html"/>
   </url>
 
+  <url>
+    <loc>https://www.marcogalimberti.com/blog_it.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog_fr.html"/>
+  </url>
+  
+    <url>
+    <loc>https://www.marcogalimberti.com/blog_fr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog_fr.html"/>
+  </url>
+  
 <!-- ARTICOLO Bears of Katmai -->
 <url>
   <loc>https://www.marcogalimberti.com/blog/BearsOfKatmai.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/BearsOfKatmai.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/BearsOfKatmai_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/BearsOfKatmai_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/blog/BearsOfKatmai_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/BearsOfKatmai.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/BearsOfKatmai_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/BearsOfKatmai_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/blog/BearsOfKatmai_fr.html</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/BearsOfKatmai.html"/>
   <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/BearsOfKatmai_it.html"/>
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/BearsOfKatmai_fr.html"/>
@@ -43,9 +99,37 @@
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/EvergladesStories_fr.html"/>
 </url>
 
+<url>
+  <loc>https://www.marcogalimberti.com/blog/EvergladesStories_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/EvergladesStories.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/EvergladesStories_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/EvergladesStories_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/blog/EvergladesStories_fr.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/EvergladesStories.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/EvergladesStories_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/EvergladesStories_fr.html"/>
+</url>
+
 <!-- ARTICOLO here Eagles Dare: First Backcountry Experience in Glacier Bay -->
 <url>
   <loc>https://www.marcogalimberti.com/blog/WhereEaglesDare.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/WhereEaglesDare.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/WhereEaglesDare_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/WhereEaglesDare_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/blog/WhereEaglesDare_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/WhereEaglesDare.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/WhereEaglesDare_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/WhereEaglesDare_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/blog/WhereEaglesDare_fr.html</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/WhereEaglesDare.html"/>
   <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/WhereEaglesDare_it.html"/>
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/WhereEaglesDare_fr.html"/>
@@ -59,6 +143,20 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/photos_fr.html"/>
   </url>
 
+  <url>
+    <loc>https://www.marcogalimberti.com/photos_it.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/photos.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/photos_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/photos_fr.html"/>
+  </url>
+  
+    <url>
+    <loc>https://www.marcogalimberti.com/photos_fr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/photos.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/photos_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/photos_fr.html"/>
+  </url>
+  
   <!-- US NATIONAL PARKS -->
   <url>
     <loc>https://www.marcogalimberti.com/US_NationalParks.html</loc>
@@ -67,10 +165,39 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/US_NationalParks_fr.html"/>
   </url>
 
+  <url>
+    <loc>https://www.marcogalimberti.com/US_NationalParks_it.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/US_NationalParks.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/US_NationalParks_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/US_NationalParks_fr.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.marcogalimberti.com/US_NationalParks_fr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/US_NationalParks.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/US_NationalParks_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/US_NationalParks_fr.html"/>
+  </url>
+
+
   <!-- NATIONAL PARKS SUBPAGES -->
  <!-- ACADIA -->
 <url>
   <loc>https://www.marcogalimberti.com/acadiaNP.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/acadiaNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/acadiaNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/acadiaNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/acadiaNP_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/acadiaNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/acadiaNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/acadiaNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/acadiaNP_fr.html</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/acadiaNP.html"/>
   <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/acadiaNP_it.html"/>
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/acadiaNP_fr.html"/>
@@ -84,9 +211,37 @@
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/evergladesNP_fr.html"/>
 </url>
 
+<url>
+  <loc>https://www.marcogalimberti.com/evergladesNP_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/evergladesNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/evergladesNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/evergladesNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/evergladesNP_fr.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/evergladesNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/evergladesNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/evergladesNP_fr.html"/>
+</url>
+
 <!-- GLACIER BAY -->
 <url>
   <loc>https://www.marcogalimberti.com/glacierBayNP.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/glacierBayNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/glacierBayNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/glacierBayNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/glacierBayNP_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/glacierBayNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/glacierBayNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/glacierBayNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/glacierBayNP_fr.html</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/glacierBayNP.html"/>
   <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/glacierBayNP_it.html"/>
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/glacierBayNP_fr.html"/>
@@ -100,9 +255,37 @@
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/grandTetonNP_fr.html"/>
 </url>
 
+<url>
+  <loc>https://www.marcogalimberti.com/grandTetonNP_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/grandTetonNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/grandTetonNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/grandTetonNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/grandTetonNP_fr.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/grandTetonNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/grandTetonNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/grandTetonNP_fr.html"/>
+</url>
+
 <!-- GREAT SMOKY MOUNTAINS -->
 <url>
   <loc>https://www.marcogalimberti.com/greatSmokyMountainsNP.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/greatSmokyMountainsNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/greatSmokyMountainsNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/greatSmokyMountainsNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/greatSmokyMountainsNP_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/greatSmokyMountainsNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/greatSmokyMountainsNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/greatSmokyMountainsNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/greatSmokyMountainsNP_fr.html</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/greatSmokyMountainsNP.html"/>
   <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/greatSmokyMountainsNP_it.html"/>
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/greatSmokyMountainsNP_fr.html"/>
@@ -116,6 +299,20 @@
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/joshuaTreeNP_fr.html"/>
 </url>
 
+<url>
+  <loc>https://www.marcogalimberti.com/joshuaTreeNP_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/joshuaTreeNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/joshuaTreeNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/joshuaTreeNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/joshuaTreeNP_fr.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/joshuaTreeNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/joshuaTreeNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/joshuaTreeNP_fr.html"/>
+</url>
+
 <!-- KATMAI -->
 <url>
   <loc>https://www.marcogalimberti.com/katmaiNP.html</loc>
@@ -124,9 +321,38 @@
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/katmaiNP_fr.html"/>
 </url>
 
+<url>
+  <loc>https://www.marcogalimberti.com/katmaiNP_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/katmaiNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/katmaiNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/katmaiNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/katmaiNP_fr.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/katmaiNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/katmaiNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/katmaiNP_fr.html"/>
+</url>
+
+
 <!-- SEQUOIA -->
 <url>
   <loc>https://www.marcogalimberti.com/sequoiaNP.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/sequoiaNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/sequoiaNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/sequoiaNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/sequoiaNP_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/sequoiaNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/sequoiaNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/sequoiaNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/sequoiaNP_fr.html</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/sequoiaNP.html"/>
   <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/sequoiaNP_it.html"/>
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/sequoiaNP_fr.html"/>
@@ -140,6 +366,19 @@
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/yellowstoneNP_fr.html"/>
 </url>
 
+<url>
+  <loc>https://www.marcogalimberti.com/yellowstoneNP_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/yellowstoneNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/yellowstoneNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/yellowstoneNP_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/yellowstoneNP_fr.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/yellowstoneNP.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/yellowstoneNP_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/yellowstoneNP_fr.html"/>
+</url>
 
   <!-- SHOP -->
   <url>
@@ -149,9 +388,39 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/shop_fr.html"/>
   </url>
 
+  <url>
+    <loc>https://www.marcogalimberti.com/shop_it.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/shop.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/shop_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/shop_fr.html"/>
+  </url>
+  
+    <url>
+    <loc>https://www.marcogalimberti.com/shop_fr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/shop.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/shop_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/shop_fr.html"/>
+  </url>
+  
+ 
   <!-- CONTACT -->
   <url>
     <loc>https://www.marcogalimberti.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/contact_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/contact_fr.html"/>
+  </url>
+  
+  <url>
+    <loc>https://www.marcogalimberti.com/contact_it.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/contact_it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/contact_fr.html"/>
+  </url>
+  
+    <!-- CONTACT -->
+  <url>
+    <loc>https://www.marcogalimberti.com/contact_fr.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/contact.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/contact_it.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/contact_fr.html"/>
