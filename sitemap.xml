@@ -113,7 +113,7 @@
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/EvergladesStories_fr.html"/>
 </url>
 
-<!-- ARTICOLO here Eagles Dare: First Backcountry Experience in Glacier Bay -->
+<!-- ARTICOLO Where Eagles Dare: First Backcountry Experience in Glacier Bay -->
 <url>
   <loc>https://www.marcogalimberti.com/blog/WhereEaglesDare.html</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/WhereEaglesDare.html"/>
@@ -133,6 +133,28 @@
   <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/WhereEaglesDare.html"/>
   <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/WhereEaglesDare_it.html"/>
   <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/WhereEaglesDare_fr.html"/>
+</url>
+
+<!-- ARTICOLO Driving the roads of the Smokies with Davy Crockett’s Spirit -->
+<url>
+  <loc>https://www.marcogalimberti.com/blog/WhereEaglesDare.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/blog/DrivingRoadsOfTheSmokies.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/DrivingRoadsOfTheSmokies_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/DrivingRoadsOfTheSmokies_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/blog/WhereEaglesDare_it.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/blog/DrivingRoadsOfTheSmokies.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/DrivingRoadsOfTheSmokies_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/DrivingRoadsOfTheSmokies_fr.html"/>
+</url>
+
+<url>
+  <loc>https://www.marcogalimberti.com/blog/WhereEaglesDare_fr.html</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.marcogalimberti.com/blog/blog/DrivingRoadsOfTheSmokies.html"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://www.marcogalimberti.com/blog/DrivingRoadsOfTheSmokies_it.html"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://www.marcogalimberti.com/blog/DrivingRoadsOfTheSmokies_fr.html"/>
 </url>
 
   <!-- PHOTOS -->
